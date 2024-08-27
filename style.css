@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0 ;
+    box-sizing: border-box; 
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(#800080 0%, #ADD8E6 100%)
+}
+
+.wrapper{
+    background: #fff;
+    width: 640px;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.4);
+}
+h1{
+    text-align: center;
+}
+hr{
+    width: 100px;
+    margin: 10px auto;
+}
+.members{
+    display: flex;
+}
+.team-members{
+    margin: 12px;
+}
+img{
+    width:100px;
+    border-radius: 50%;
+    height: 100px;
+    margin: 10px;
+}
+h4{
+    text-align:center;
+    font-size: 12px;
+    margin:7px;
+}
+p{
+    text-align:left;
+    font-size: 12px;
+    margin:7px;
+}
